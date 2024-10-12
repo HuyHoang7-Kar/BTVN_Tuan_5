@@ -52,7 +52,6 @@ void FindBlum(int n, int m) {
             if (CheckBlum(sum)) {
                 printf("Cap so co tong la so Blum: %d + %d = %d\n", a[i], a[j], sum);
             }
-            else printf("Khong co cap so nao");
         }
     }
 
