@@ -28,7 +28,7 @@ int CheckBlum(int n) {
     return 0;
 }
 void PrintBlumNumbers(int n) {
-    printf("Day blum nho hon %d là: ", n);
+    printf("Day blum nho hon %d la: ", n);
     for (int i = 0; i < n; i++) {
         if (CheckBlum(i)) {
             printf("%d ", i);
@@ -70,7 +70,7 @@ void FindBlum(int n, int m) {
 }
 int main() {
     int n, m;
-    printf("Nhap n và m: ");
+    printf("Nhap n va m: ");
     scanf("%d %d", &n, &m);
     PrintBlumNumbers(n);
     FindBlum(n, m);
